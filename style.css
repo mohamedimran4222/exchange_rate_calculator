@@ -1,0 +1,45 @@
+:root {
+  --primary-color: green;
+}
+body {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+* {
+  box-sizing: border-box;
+}
+.currency {
+  padding: 20px;
+}
+.currency-1 {
+  padding: 20px;
+}
+button {
+  display: flex;
+  flex-direction: column;
+
+  padding: 08px 22px 08px 10px;
+  margin-left: 20px;
+  background: var(--primary-color);
+}
+.currency select {
+  background: transparent;
+}
+input {
+  text-align: right;
+  border: 0;
+}
+.c1 {
+  margin-right: 30px;
+  padding: 10px;
+}
+.i1 {
+  padding: 10px;
+}
+.rate {
+  display: flex;
+  float: right;
+}
